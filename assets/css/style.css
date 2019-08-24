@@ -27,7 +27,10 @@ h2 {
   a {
       float: right;
       margin-top: 30px;
-      margin-right: 20px;
+      margin-left: 10px;
+      padding-right: 10px;
+      text-decoration: none;
+      color: lightgrey;
   }
 
   .basicHeader {
@@ -38,8 +41,7 @@ h2 {
   .mainArea {
     background-image: url("../images/interlaced.png");
     overflow: auto;
-    min-height: calc(100vh - 70px);
-    margin-bottom: 20px;
+    min-height: calc(100vh - 75px);
   }
 
   .footer {
@@ -81,3 +83,14 @@ h2 {
       line-height: 30px;
       font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   }
+
+    .footerBorder {
+      height: 5px;
+      background: #4aaaa5;
+      left: 0;
+      right: 0;
+    }
+
+    .pageLink {
+      border-right: 2px solid lightgray;
+    }
